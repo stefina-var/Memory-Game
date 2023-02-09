@@ -1,0 +1,38 @@
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+}
+.grid {
+    height:300px;
+    width:400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.start {
+    height:32px;
+    width:240px;
+    font-size: 16px;
+    color:white;
+    background-color:rgb(47, 47, 47);
+    border-radius: 16px;
+    border-style: none;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+header{
+    text-align: center;
+    justify-content: center;
+}
+main{
+    display: flex;
+    justify-content: center;
+    margin: 32px;
+}
+
+h1{
+    text-align: center;
+    font-size: 64px;
+}
