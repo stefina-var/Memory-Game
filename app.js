@@ -106,6 +106,4 @@ document.addEventListener('DOMContentLoaded', () => {
   //maked the board diffrent
   cards.sort(()=> 0.5 - Math.random());
   createBoard();
-  
-
 });

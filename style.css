@@ -2,18 +2,24 @@
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 24px;
 }
+body{
+    background-color: rgb(50, 50, 50);
+    background-image: url("background.jpg");
+}
 .grid {
-    height:300px;
-    width:400px;
+    height:350px;
+    width:425px;
     display: flex;
     flex-wrap: wrap;
-}
+    column-gap: 8px;
+    row-gap: 8px;
+    }
 .start {
-    height:32px;
-    width:240px;
+    height:40px;
+    width:160px;
     font-size: 16px;
-    color:white;
-    background-color:rgb(47, 47, 47);
+    color:rgb(255, 255, 255);
+    background-color:rgb(25, 25, 25);
     border-radius: 16px;
     border-style: none;
 }
@@ -25,6 +31,7 @@ footer{
 header{
     text-align: center;
     justify-content: center;
+    margin: 32px;
 }
 main{
     display: flex;
@@ -35,4 +42,13 @@ main{
 h1{
     text-align: center;
     font-size: 64px;
+    color: rgb(165, 125, 203);
+    font-family:Arial, Helvetica, sans-serif;
+}
+img{
+    border-radius: 16px;
+    box-shadow: 0 0 4px 0;
+}
+h2{
+    font-size: 48px;
 }
